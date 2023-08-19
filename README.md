@@ -17,8 +17,11 @@ o front-end usando HTML e CSS, por fim usando o JS para adicionar funcionalidade
 
 ## :rocket: Rodando o projeto
 
-Para rodar o projeto é necessário clonar o repositório para a sua máquina.
-
+Para acessar o projeto, acesse os links abaixo para acessar:
+- 🌐 o site: <br>
+      https://desafio1-landing-page-arquitetura.netlify.app
+- 📝 a planilha: <br>
+      https://docs.google.com/spreadsheets/d/1P1-OlWJ7MrDQcAxsDtUQ8tyrhX5PuMLFMcPTAhbAq3Q/edit#gid=0
 ## :soon: Implementação futura
 
 Se tudo der certo, consiguirei pensar em alguma funcionalidade ou conseguir implementar
