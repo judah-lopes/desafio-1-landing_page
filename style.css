@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap");
+* {
+    margin: 0;
+}
+/*?   MENU SUPERIOR   */
+#menuSuperior {
+    background-color: #303030;
+}
+#menuSuperior h1 {
+    padding: 12.87rem 0rem 0rem 3.87rem;
+    color: #fff;
+    font-feature-settings: "liga" off;
+    font-family: Inter;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.5rem;
+    letter-spacing: -1.5px;
+}
+#menuSuperior p {
+    padding: 1.25rem 0rem 9.31rem 3.87rem;
+    color: #fff;
+    font-feature-settings: "liga" off;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+/*?  DADOS NUMÉRICOS  */
+#dadosNum {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.dados h2 {
+    margin-top: 6rem;
+    margin-bottom: 0.5rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+.dados p {
+    margin-bottom: 4.13rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+/*?    "SOBRE NÓS"     */
+#sobreNos {
+    display: grid;
+    grid-auto-flow: column;
+}
+#sobreNosTxt {
+    display: flex;
+    width: 45.9375rem;
+    height: 10.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4.81rem;
+    margin-top: 19.375rem;
+}
+#sobreNosTxt h2 {
+    margin-bottom: 2.5rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+#sobreNosTxt p {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.875rem;
+}
+#sobreNosImg {
+    margin: 5.12rem 3.38rem 5.75rem 4rem;
+}
+/*?     FORMULÁRIO      */
+#form {
+    background-color: #303030;
+    text-align: center;
+}
+#form h3 {
+    padding-top: 5.44rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.inputs {
+    margin-bottom: 5rem;
+    padding: 1.2rem 0rem 1.45rem 1.88rem;
+    width: 31.75rem;
+    border-radius: 0.625rem;
+    background-color: #888888;
+    border-style: none;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+}
+.inputs::placeholder {
+    color: #303030;
+}
+.inputs:focus {
+    background-color: white;
+}
+button {
+    width: 17.875rem;
+    height: 4.625rem;
+    border-radius: 0.625rem;
+    background: #c07212;
+    color: #fff;
+    font-family: Raleway;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    border-style: none;
+    margin-bottom: 5.45rem;
+
+    cursor: pointer;
+}
+button:hover {
+    background-color: #f19019;
+    transform: translateY(-7px);
+    transition-duration: 0.3s;
+    box-shadow: 0px 6px 20px #422400;
+}
