@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap");
 * {
     margin: 0;
+    font-family: inter;
 }
 /*?   MENU SUPERIOR   */
 #menuSuperior {
@@ -9,54 +10,32 @@
 #menuSuperior h1 {
     padding: 12.87rem 0rem 0rem 3.87rem;
     color: #fff;
-    font-feature-settings: "liga" off;
-    font-family: Inter;
     font-size: 3.75rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 4.5rem;
-    letter-spacing: -1.5px;
 }
 #menuSuperior p {
     padding: 1.25rem 0rem 9.31rem 3.87rem;
     color: #fff;
-    font-feature-settings: "liga" off;
-    font-family: Inter;
     font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 28px;
 }
 /*?  DADOS NUMÉRICOS  */
 #dadosNum {
+    background-color: #eaece5;
     display: grid;
     grid-auto-flow: column;
-    background-color: #f9f9f9;
-    text-align: center;
+    columns: auto;
+    padding: 3.125rem;
 }
 .dados h2 {
-    margin-top: 6rem;
-    margin-bottom: 0.5rem;
-    color: #000;
-    font-family: Inter;
     font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.75rem;
 }
 .dados p {
-    margin-bottom: 4.13rem;
-    color: #000;
-    font-family: Inter;
     font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.75rem;
 }
 /*?    "SOBRE NÓS"     */
 #sobreNos {
     display: grid;
     grid-auto-flow: column;
+    columns: auto;
 }
 #sobreNosTxt {
     display: flex;
@@ -70,19 +49,11 @@
 #sobreNosTxt h2 {
     margin-bottom: 2.5rem;
     color: #000;
-    font-family: Inter;
     font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.25rem;
 }
 #sobreNosTxt p {
     color: #000;
-    font-family: Inter;
     font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 1.875rem;
 }
 #sobreNosImg {
     margin: 5.12rem 3.38rem 5.75rem 4rem;
@@ -97,11 +68,7 @@
     margin-bottom: 3rem;
     color: #fff;
     text-align: center;
-    font-family: Inter;
     font-size: 2rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%;
 }
 .inputs {
     margin-bottom: 5rem;
@@ -113,9 +80,7 @@
     color: #ffffff;
     font-family: Raleway;
     font-size: 1.5rem;
-    font-style: normal;
     font-weight: 700;
-    line-height: 1.875rem;
 }
 .inputs::placeholder {
     color: #303030;
@@ -131,9 +96,6 @@ button {
     color: #fff;
     font-family: Raleway;
     font-size: 1.875rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.875rem;
     border-style: none;
     margin-bottom: 5.45rem;
 
