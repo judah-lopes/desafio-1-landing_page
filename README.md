@@ -21,7 +21,7 @@ Para acessar o projeto, acesse os links abaixo para acessar:
 - 🌐 o site: <br>
       https://desafio1-landing-page-arquitetura.netlify.app
 - 📝 a planilha: <br>
-      https://docs.google.com/spreadsheets/d/1P1-OlWJ7MrDQcAxsDtUQ8tyrhX5PuMLFMcPTAhbAq3Q/edit#gid=0
+      https://docs.google.com/spreadsheets/d/1P1-OlWJ7MrDQcAxsDtUQ8tyrhX5PuMLFMcPTAhbAq3Q/edit?usp=sharing
 ## :soon: Implementação futura
 
 Se tudo der certo, consiguirei pensar em alguma funcionalidade ou conseguir implementar
